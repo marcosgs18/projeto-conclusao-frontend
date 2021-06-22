@@ -1,0 +1,48 @@
+.palestrante {
+    background-color:#ef7247;
+    text-align: center;
+}
+
+.palestrante .title {
+    font-size: 2.2em;
+    text-transform: uppercase;
+    color: white;
+    padding: 30px 15px 0 15px;
+}
+
+.palestrante .subtitle {
+    font-size: 1.8em;
+    color: white;
+    padding: 15px 15px 15px 15px;
+}
+
+.palestrante ul {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.palestrante li {
+    margin: 15px 15px 15px 15px;
+    display: inline-block;
+}
+
+.palestrante .lista li {
+    
+    background-color: white;
+    padding: 25px 15px;
+    border-radius: 8px;
+}
+
+.palestrante img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.palestrante p {
+    line-height: 30px;
+    font-size: 1.1em;
+}
+
+.palestrante .cargo {
+    font-weight: bold;
+}

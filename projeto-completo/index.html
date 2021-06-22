@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/palestrante.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+
+    <title>AluraConf</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navegacao">
+            <ul>
+                <li><a class="ancora" href="#sobre">Sobre</a></li>
+                <li><a class="ancora" href="#palestrante">Palestrantes</a></li>
+            </ul>
+        </nav>
+
+        <div class="jumbotron">
+            <section>
+                <h1 class="title">ALURACONF</h1>
+
+                <h2 class="subtitle">30MAIO│RIO</h2>
+            </section>
+
+            <section>
+                <nav>
+                    <ul>
+                        <li><a class="button" href="#form">Inscreva-se</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </div>
+    </header>
+
+    <main>
+        <section id="sobre" class="sobre">
+            <h2 class="title">Muito conteúdo: do frontend ao backend</h2>
+
+            <h3 class="subtitle">30 de Maio de 2017 - na Cidade Maravilhosa</h3>
+
+            <p>Com a AluraConf abordaremos o que há de novidade e conhecimentos essenciais a um desenvolvedor mobile.
+            </p>
+            <p>É uma grande chance de ficar por dentro dos assuntos de Android, iOS, Web mobile,
+                desenvolvimento híbrido, UX, além da parte backend com Rest, Microservices, e BigData. O desenvolvedor
+                atualizado
+                vai estar aqui.</p>
+        </section>
+
+        <section id="palestrante" class="palestrante">
+            <h1 class="title">Palestrantes</h1>
+            <h2 class="subtitle">Aprenda com palestrantes que são referência no mercado</h2>
+
+            <ul class="lista">
+                <li>
+                    <img src="img/palestrantes/placeholder.jpeg" alt="perfil">
+                    <p class="nome">Flávio Almeida</p>
+                    <p class="cargo">Desenvolvedor e instrutor da Caelum</p>
+                    <p class="descricao">O que você irá aprender</p>
+                </li>
+                <li>
+                    <img src="img/palestrantes/placeholder.jpeg" alt="perfil">
+                    <p class="nome">Flávio Almeida</p>
+                    <p class="cargo">Desenvolvedor e instrutor da Caelum</p>
+                    <p class="descricao">O que você irá aprender</p>
+                </li>
+                <li>
+                    <img src="img/palestrantes/placeholder.jpeg" alt="perfil">
+                    <p class="nome">Flávio Almeida</p>
+                    <p class="cargo">Desenvolvedor e instrutor da Caelum</p>
+                    <p class="descricao">O que você irá aprender</p>
+                </li>
+                <li>
+                    <img src="img/palestrantes/placeholder.jpeg" alt="perfil">
+                    <p class="nome">Flávio Almeida</p>
+                    <p class="cargo">Desenvolvedor e instrutor da Caelum</p>
+                    <p class="descricao">O que você irá aprender</p>
+                </li>
+                <li>
+                    <img src="img/palestrantes/placeholder.jpeg" alt="perfil">
+                    <p class="nome">Flávio Almeida</p>
+                    <p class="cargo">Desenvolvedor e instrutor da Caelum</p>
+                    <p class="descricao">O que você irá aprender</p>
+                </li>
+                <li>
+                    <img src="img/palestrantes/placeholder.jpeg" alt="perfil">
+                    <p class="nome">Flávio Almeida</p>
+                    <p class="cargo">Desenvolvedor e instrutor da Caelum</p>
+                    <p class="descricao">O que você irá aprender</p>
+                </li>
+            </ul>
+
+        </section>
+    </main>
+
+    <footer class="form">
+        <h1 class="title">Seus Dados</h1>
+
+        <form id="form">
+            <div class="field">
+                <label for="input-nome">Nome</label>
+                <input type="text" name="nome" id="input-nome">
+            </div>
+
+            <div class="field">
+                <label for="input-email">E-mail</label>
+                <input type="text" name="email" id="input-email">
+            </div>
+
+            <div class="btn-position">
+                <button type="submit" class="btn-submit">REALIZAR INSCRIÇÃO</button>
+            </div>
+        </form>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
